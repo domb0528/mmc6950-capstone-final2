@@ -30,10 +30,12 @@ export default function Search({winePairings}) {
   return (
     <>
       <Head>
-        <title>Search Yummy!</title>
+        <title>Sip & Savor 🍷</title>
         <meta name="description" content="Search for Wine Pairings" />
         <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍷</text></svg>"/>
       </Head>
+
+      <p>Type in a type of food and the website will populate a wine that pairs well with your food.</p>
 
       <form onSubmit={handleSubmit} className={styles.form}>
         <label htmlFor="winePairing-search">Search by keywords:</label>

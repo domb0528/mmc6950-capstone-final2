@@ -1,5 +1,6 @@
 .container {
   max-width: 1200px;
+  height: fit-content;
   margin: auto;
 }
 
@@ -22,17 +23,14 @@
 }
 
 .jumbo p {
-  position: absolute;
-  background-color: var(--primaryClear);
-  color: white;
-  width: 100%;
-  bottom: 40px;
+  
+  color: #2329dc;
   margin: 0;
   text-align: center;
   padding: calc(var(--space) * 4) calc(var(--space) * 2);
   box-sizing: border-box;
   font-size: 2rem;
-  font-family: Savoye Let;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .goSearch {

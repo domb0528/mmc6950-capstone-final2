@@ -6,7 +6,7 @@
 .form label {
   display: block;
   margin-bottom: calc(var(--space) * 2);
-  font-family: 'Times New Roman', Times, serif;
+  font-family: Savoye Let;
 }
 
 .results {
@@ -17,7 +17,7 @@
   flex-wrap: wrap;
   gap: calc(var(--space) * 4);
   margin-bottom: calc(var(--space) * 8);
-  font-family: 'Times New Roman', Times, serif;
+  font-family: Savoye Let;
 }
 
 .preview {
@@ -43,5 +43,5 @@
 
 .noResults {
   text-align: center;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: Savoye Let;
 }

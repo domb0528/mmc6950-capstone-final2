@@ -35,7 +35,7 @@ export default function Search({winePairings}) {
         <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍷</text></svg>"/>
       </Head>
 
-      <p className={styles.noResults}>Type in a type of food and the website will populate a wine that pairs well with your food.</p>
+      <p className={styles.noResults}>Type in a type of food and the website will populate a wine that pairs well with your food. Click the image to show where to purchase it.</p>
 
       <form onSubmit={handleSubmit} className={styles.form}>
         <label htmlFor="winePairing-search">Search by keywords:</label>
@@ -55,7 +55,7 @@ export default function Search({winePairings}) {
         {
         winePairings.map((winePairing, i) => (   
         
-        <WinePairingPreview key={i} id={winePairing.id} title={winePairing.title} image={winePairing.imageUrl} description={winePairing.description} />
+        <WinePairingPreview key={i} id={winePairing.id} title={winePairing.title} image={winePairing.imageUrl} description={winePairing.description} link={winePairing.link} />
         ))}
         
         </section>
@@ -65,10 +65,10 @@ export default function Search({winePairings}) {
   )
 }
 
-function WinePairingPreview({id, title, image, description}) {
+function WinePairingPreview({id, title, image, description, link}) {
   return (
     <div>
-    <Link href={'/winePairing/' + id} className={styles.preview}>
+    <Link href={link} target="_blank" className={styles.preview}>
       <Image src={image} width="231" height="231" alt={title}/>
       <span>{title}</span>
       <span>{description}</span>

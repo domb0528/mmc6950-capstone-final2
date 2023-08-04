@@ -1,5 +1,5 @@
 Food and Wine Pairing Website
-Food and Wine
+Sip & Savor 🍷 
 
 Table of Contents
 Introduction
@@ -64,7 +64,7 @@ Authentication: JWT (JSON Web Tokens)
 Contributing
 We welcome contributions from the community to enhance the features and usability of our Food and Wine Pairing Website. If you find any bugs or have suggestions for improvements, please feel free to submit issues or pull requests.
 
-Fork the repository from food-and-wine-website.
+Fork the repository from Sip&Savor-website.
 
 Create a new branch with a descriptive name for your feature/fix:
 

@@ -13,8 +13,6 @@ export default function Home() {
       <main>
         <div className={styles.container}>
           <h1>Welcome to Sip & Savor 🍷 where you can find the best food and wine pairings</h1>
-          <section className={styles.jumbo}
-          </section>
         </div>
         <section className={styles.goSearch}>
           <p></p>
